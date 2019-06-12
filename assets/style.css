@@ -1,0 +1,583 @@
+@font-face {
+    font-family: 'BreeSerif';
+    src: url('font/BreeSerif.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('font/Gotham-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraLight';
+    src: url('font/Montserrat-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('font/Montserrat-Light.otf');
+}
+
+@font-face {
+    font-family: 'NBNGioMayNhe_R';
+    src: url('font/NBNGioMayNhe_R.otf');
+}
+
+@font-face {
+    font-family: 'UTM-Candombe';
+    src: url('font/UTM Candombe.otf');
+}
+
+@font-face {
+    font-family: 'VNF-Cariar';
+    src: url('font/VNF-Cariar Dreams Regular.ttf');
+}
+
+@font-face {
+    font-family: 'VNF-Futura';
+    src: url('font/VNF-Futura Regular.ttf');
+}
+
+@font-face {
+    font-family: 'VNF-Znikomit';
+    src: url('font/VNF-Znikomit.ttf');
+}
+
+@font-face {
+    font-family: 'AmericanTypewriter';
+    src: url('font/AmericanTypewriter-01.ttf');
+}
+
+@font-face {
+    font-family: 'AmericanTypewriter-Light';
+    src: url('font/AmericanTypewriter-Light-02.ttf');
+}
+
+@font-face {
+    font-family: 'AmericanTypewriter-Bold';
+    src: url('font/AmericanTypewriter-Bold-03.ttf');
+}
+
+@font-face {
+    font-family: 'AmericanTypewriter-Semibold';
+    src: url('font/AmericanTypewriter-Semibold-04.ttf');
+}
+
+@font-face {
+    font-family: 'AmericanTypewriter-Condensed';
+    src: url('font/AmericanTypewriter-Condensed-05.ttf');
+}
+
+@font-face {
+    font-family: 'AmericanTypewriter-CondensedBold';
+    src: url('font/AmericanTypewriter-CondensedBold-06.ttf');
+}
+
+@font-face {
+    font-family: 'AmericanTypewriter-CondensedLight';
+    src: url('font/AmericanTypewriter-CondensedLight-07.ttf');
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+.bg-header{
+    background-color: #323433 !important
+}
+
+.dropdown-menu{
+    background-color: #323433;
+}
+
+.dropdown-item{
+    color: #fff;
+}
+
+.nav-link{
+    font-family: NBNGioMayNhe_R;
+}
+
+
+.bold-caption-text{
+    font-family: BreeSerif;
+}
+
+.border-title{
+    border-bottom: 2px solid #90722c;
+}
+
+.diem-den{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+
+#trai-nghiem{
+    background: #e6d8bb;
+}
+
+.content-tn{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.mon-an{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.le-hoi{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.bg-lh{
+    background: url("../img/bg-lehoi.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-blur-lh{
+    background-color: rgba(255,255,255, 0.8);
+}
+
+.bg-dd{
+    background: url("../img/bg-diemden.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-blur-dd{
+    background-color: rgba(255,255,255, 0.8);
+}
+
+.link{
+    padding-left: 7%;
+}
+
+.bg-footer{
+    background: url("../img/bg-footer.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.btn-link1{
+    width: 50px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+    .title-item{
+        font-family: AmericanTypewriter;
+        font-size: 35px;
+    }
+
+    .sub-title-item{
+        font-family: Gotham-Medium;
+        font-size: 15px;
+    }
+
+    .description-text{
+        font-family: AmericanTypewriter;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .caption-text{
+        font-family: Montserrat-ExtraLight;
+        font-size: 15px;
+    }
+
+    .card-photo-text{
+        padding: 15px;
+    }
+
+    .caption-text-tn{
+        text-align: center;
+        font-family: Gotham-Medium;
+        font-size: 15px;
+    }
+
+    .description-text-tn{
+        text-align: justify;
+        font-family: Montserrat-ExtraLight;
+        font-size: 20px;
+    }
+
+    .bg-at{
+        background: url("../img/bg-amthuc.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .bg-blur-at{
+        margin: 30px;
+        border-radius: 25px;
+        background-color: rgba(255,255,255, 0.8);
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .card-photo-text-ma{
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    .caption-text-ma{
+        font-family: AmericanTypewriter;
+        font-size: 20px;
+        text-align: center;
+        color: #53501d;
+    }
+
+    .link-local-item{
+        font-family: Montserrat-Light;
+        color: #fff;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .link-local-item a{
+        color: #fff;
+    }
+    .contact{
+        padding: 20px;
+    }
+
+    .contact-boder{
+        border: 2px solid dimgrey;
+        padding: 10px;
+    }
+
+    .contact-text{
+        font-family: Montserrat-Light;
+        font-size: 15px;
+        color: #fff;
+    }
+
+    .boder-nav{
+        display: none;
+    }
+
+    .navbar-brand{
+        margin-right: 0px;
+    }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1024px) {
+    .title-item{
+        font-family: AmericanTypewriter;
+        font-size: 70px;
+    }
+
+    .sub-title-item{
+        font-family: Gotham-Medium;
+        font-size: 30px;
+    }
+
+    .description-text{
+        font-family: AmericanTypewriter;
+        font-size: 30px;
+        text-align: justify-all;
+    }
+
+    .caption-text{
+        font-family: Montserrat-ExtraLight;
+        font-size: 30px;
+    }
+
+    .card-photo-text{
+        padding: 30px;
+    }
+
+    .caption-text-tn{
+        text-align: center;
+        font-family: Gotham-Medium;
+        font-size: 30px;
+    }
+
+    .description-text-tn{
+        text-align: justify;
+        font-family: Montserrat-ExtraLight;
+        font-size: 35px;
+    }
+
+    .bg-at{
+        background: url("../img/bg-amthuc.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .bg-blur-at{
+        margin: 50px;
+        border-radius: 25px;
+        background-color: rgba(255,255,255, 0.8);
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .card-photo-text-ma{
+        padding: 30px;
+        margin-top: 10px;
+    }
+
+    .caption-text-ma{
+        font-family: AmericanTypewriter;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 50px;
+        color: #53501d;
+    }
+
+    .link-local-item{
+        font-family: Montserrat-Light;
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+    .link-local-item a{
+        color: #fff;
+    }
+    .contact{
+        padding: 15px;
+    }
+
+    .contact-boder{
+        border: 2px solid dimgrey;
+        padding: 20px;
+    }
+
+    .contact-text{
+        font-family: Montserrat-Light;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .boder-nav{
+        display: none;
+    }
+
+    .navbar-brand{
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1285px) {
+    .title-item{
+        font-family: AmericanTypewriter;
+        font-size: 70px;
+    }
+
+    .sub-title-item{
+        font-family: Gotham-Medium;
+        font-size: 30px;
+    }
+
+    .description-text{
+        font-family: AmericanTypewriter;
+        font-size: 30px;
+        text-align: justify;
+    }
+
+    .caption-text{
+        font-family: Montserrat-ExtraLight;
+        font-size: 30px;
+    }
+
+    .card-photo-text{
+        padding: 30px;
+    }
+
+    .caption-text-tn{
+        text-align: center;
+        font-family: Gotham-Medium;
+        font-size: 40px;
+    }
+
+    .description-text-tn{
+        text-align: justify-all;
+        text-align: middle;
+        font-family: Montserrat-ExtraLight;
+        font-size: 50px;
+    }
+
+    .bg-at{
+        background: url("../img/bg-amthuc.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .bg-blur-at{
+        margin: 50px;
+        border-radius: 25px;
+        background-color: rgba(255,255,255, 0.8);
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .card-photo-text-ma{
+        padding: 30px;
+        margin-top: 10px;
+    }
+
+    .caption-text-ma{
+        font-family: AmericanTypewriter;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+        color: #53501d;
+    }
+
+    .link{
+        margin-top: 20px;
+    }
+
+    .link-local-item{
+        font-family: Montserrat-Light;
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .link-local-item a{
+        color: #fff;
+    }
+    .contact{
+        padding: 20px;
+    }
+
+    .contact-boder{
+        border: 2px solid dimgrey;
+        padding: 20px;
+    }
+
+    .contact-text{
+        font-family: Montserrat-Light;
+        font-size: 30px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .boder-nav{
+        display: none;
+    }
+
+    .navbar-brand{
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 1286px) {
+    .title-item{
+        font-family: AmericanTypewriter;
+        font-size: 70px;
+    }
+
+    .sub-title-item{
+        font-family: Gotham-Medium;
+        font-size: 30px;
+    }
+
+    .description-text{
+        font-family: AmericanTypewriter;
+        font-size: 30px;
+        text-align: justify;
+        text-align: middle;
+    }
+
+    .caption-text{
+        text-align: justify;
+        font-family: Montserrat-ExtraLight;
+        font-size: 30px;
+    }
+
+    .card-photo-text{
+        padding: 30px;
+    }
+
+    .caption-text-tn{
+        text-align: center;
+        font-family: Gotham-Medium;
+        font-size: 40px;
+    }
+
+    .description-text-tn{
+        text-align: justify;
+        font-family: Montserrat-ExtraLight;
+        font-size: 40px;
+    }
+
+    .bg-at{
+        background: url("../img/bg-amthuc.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .bg-blur-at{
+        margin: 50px;
+        border-radius: 25px;
+        background-color: rgba(255,255,255, 0.8);
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .card-photo-text-ma{
+        padding: 30px;
+        margin-top: 10px;
+    }
+
+    .caption-text-ma{
+        font-family: AmericanTypewriter;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+        color: #53501d;
+    }
+
+    .link{
+        margin-top: 20px;
+    }
+
+    .link-local-item{
+        font-family: Montserrat-Light;
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .link-local-item a{
+        color: #fff;
+    }
+    .contact{
+        padding: 20px;
+    }
+
+    .contact-boder{
+        border: 2px solid dimgrey;
+        padding: 20px;
+    }
+
+    .contact-text{
+        font-family: Montserrat-Light;
+        font-size: 30px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .boder-nav{
+        border-left: 1px solid #cfba60;
+        height: 30px;
+        margin: 10px;
+    }
+
+    .navbar-brand{
+        margin-right: 100px;
+    }
+}

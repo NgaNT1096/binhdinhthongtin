@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="assets/jquery.min.js"></script>
+    <script src="assets/popper.min.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- Main wrapper  -->
+<div id="main-wrapper">
+    <!-- header header -->
+    <div class="header">
+        <nav class="navbar navbar-expand-xl navbar-dark bg-header">
+
+            <a class="navbar-brand" href="#">
+                <!-- Logo icon -->
+                <img src="img/Logo.png" alt="homepage" class="dark-logo"/>
+                <!--End Logo icon -->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContentXL"
+                    aria-controls="navbarSupportedContentXL" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContentXL">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                           data-toggle="dropdown" aria-expanded="false">
+                            <h2>ĐIỂM ĐẾN</h2>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <a class="dropdown-item" href="#eo-gio">Eo Gió</a>
+                            <a class="dropdown-item" href="#ky-co">Kỳ Co</a>
+                            <a class="dropdown-item" href="#thap-banh-it">Tháp Bánh Ít</a>
+                            <a class="dropdown-item" href="#cu-lao-xanh">Cù Lao Xanh</a>
+                            <a class="dropdown-item" href="#hon-kho">Hòn Khô</a>
+                            <a class="dropdown-item" href="#hai-dang">Hải Đăng Cù Lao Xanh</a>
+                        </div>
+                    </li>
+                    <div class="boder-nav"></div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                           data-toggle="dropdown" aria-expanded="false">
+                            <h2>TRẢI NGHIỆM</h2>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <a class="dropdown-item" href="#tn-dia-diem">Du lịch</a>
+                            <a class="dropdown-item" href="#tn-am-thuc">Ẩm thực</a>
+                            <a class="dropdown-item" href="#tn-dich-vu">Dịch vụ</a>
+
+                        </div>
+                    </li>
+                    <div class="boder-nav"></div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+                           data-toggle="dropdown" aria-expanded="false">
+                            <h2>ẨM THỰC</h2>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            <a class="dropdown-item" href="#banh-xeo-tom-nhay">Bánh xèo tôm nhảy</a>
+                            <a class="dropdown-item" href="#banh-hoi-chao-long">Bánh hỏi cháo lòng</a>
+                            <a class="dropdown-item" href="#banh-canh-cha-ca">Bánh canh chả cá</a>
+                            <a class="dropdown-item" href="#goi-sua">Gỏi sứa</a>
+                            <a class="dropdown-item" href="#banh-beo-chen">Bánh bèo chén</a>
+                            <a class="dropdown-item" href="#nem-nuong">Nem nướng</a>
+                        </div>
+                    </li>
+                    <div class="boder-nav"></div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
+                           data-toggle="dropdown" aria-expanded="false">
+                            <h2>LỄ HỘI</h2>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                            <a class="dropdown-item" href="#le-hoi-tay-son">Lễ hội Tây Sơn</a>
+                            <a class="dropdown-item" href="#le-hoi-cho-go">Lễ hội chợ Gò</a>
+                        </div>
+                    </li>
+                    <div class="boder-nav"></div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button"
+                           data-toggle="dropdown" aria-expanded="false">
+                            <h2>LIÊN HỆ</h2>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                            <a class="dropdown-item" href="#lien-ket">Liên kết</a>
+                            <a class="dropdown-item" href="#lien-he">Liên hệ</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- End header header -->
+    <!-- Page wrapper  -->
+    <div class="page-wrapper">
+        <img style="width: 100%" src="img/header1.png">
+        <br>
+        <!-- Container fluid  -->
+        <div class="">
+            <div id="diem-den">
+                <div class="bg-dd">
+                    <div class="bg-blur-dd">
+                        <div class="diem-den">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="title-item text-center" style="color: #13a2c2;">ĐIỂM ĐẾN</div>
+                                    <div class="sub-title-item text-center" style="color: #90722c;">QUY NHƠN - VẺ ĐẸP TUYỆT VỜI TẠO HÓA BAN TẶNG</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-3">
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="border-title">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-3">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-2 col-md-3">
+                                </div>
+                                <div class="col-lg-8 col-md-6">
+                                    <div class="description-text" style="color: #846234;">Quy Nhơn được mệnh danh là thành phố của thi ca, nằm nép mình giữa một bên là núi và một bên là biển, tạo nên một bức tranh sơn thủy hữu tình. Các điểm đến như Eo gió, Kỳ Co, Cù Lao Xanh là một trong những địa điểm được nhiều du khách lựa chọn khi đến Quy Nhơn.</div>
+                                </div>
+                                <div class="col-lg-2 col-md-3">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <div id="eo-gio" class="card-photo-text">
+                                        <img src="img/diemden1.jpg" style="width: 100%">
+                                        <div class="caption-text"><b class="bold-caption-text">Eo Gió</b> sở hữu những dãy núi hình cánh cung với nhiều hình thù kỳ lạ. Những tảng đá lớn nhỏ được phủ lớp rêu xanh tạo nên khung cảnh thu hút ở vùng biển tại Quy Nhơn.</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div id="ky-co" class="card-photo-text">
+                                        <img src="img/diemden2.jpg" style="width: 100%">
+                                        <div class="caption-text"><b class="bold-caption-text">Kỳ Co</b> được thiên nhiên ưu ái những dải cát vàng ôm lấy biển, bọc thành một hình cung, mềm mại như dải lụa uốn lượn, ôm trọn lấy làn nước trong xanh tận đáy.</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div id="thap-banh-it" class="card-photo-text">
+                                        <img src="img/diemden3.jpg" style="width: 100%">
+                                        <div class="caption-text"><b class="bold-caption-text">Tháp Bánh Ít</b> là vẻ đẹp mà người Bình Định tự hào rằng đó là di tích Chăm xưa cổ có lối kiến trúc đa dạng mang đậm ảnh hưởng văn hoá Cham-pa nhưng vẫn có nét gì đó rất riêng của mảnh đất võ.</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div id="cu-lao-xanh" class="card-photo-text">
+                                        <img src="img/diemden4.jpg" style="width: 100%">
+                                        <div class="caption-text"><b class="bold-caption-text">Cù Lao Xanh</b> được xem là "hòn ngọc quý" và là nơi nhất định phải ghé thăm khi đến Quy Nhơn. Từ ngọn hải đăng du khách có thể ngắm nhìn toàn cảnh bãi biển xanh ngắt trải dài đường chân trời</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div id="hon-kho" class="card-photo-text">
+                                        <img src="img/diemden5.jpg" style="width: 100%">
+                                        <div class="caption-text"><b class="bold-caption-text">Hòn Khô</b> chúng ta sẽ được thả mình xuống nước biển xanh trong vắt để tự mình khám phá dải san hô ngay phía dưới mình với mực nước khá nông và không cần đến áo phao.</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div id="hai-dang" class="card-photo-text">
+                                        <img src="img/diemden6.jpg" style="width: 100%">
+                                        <div class="caption-text"><b class="bold-caption-text">Hải đăng Cù Lao Xanh</b> là ngọn hải đăng được xây dựng cho hay sớm nhất Bình Định,bạn đừng bỏ qua cơ hội lên thăm hải đăng Nhơn Châu, ngọn đèn biển cao và hiện đại nhất Việt Nam.</div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card-photo-text">
+                                        <img src="img/location-diemden.png" style="width: 100%; margin-bottom: 20px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="trai-nghiem">
+                <div class="content-tn">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="title-item text-center" style="color: #525020">TRẢI NGHIỆM</div>
+                            <div class="sub-title-item text-center" style="color:#253350;">LƯU LẠI NHỮNG KỈ NIỆM ĐẸP TẠI QUY NHƠN CÙNG CÁC TRẢI NGHIỆM ĐẶC SẮC</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-3">
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="border-title">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-3">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-1"></div>
+                        <div class="col-lg-4 col-md-10">
+                            <img src="img/trainghiem1.png" width="100%" style="margin-top: 20px; padding: 20px">
+                        </div>
+                        <div class="col-lg-4 col-md-1"></div>
+                        <div class="col-12">
+                            <div id="tn-dia-diem" class="caption-text-tn" style="color: #6d6743">TRẢI NGHIỆM CÁC ĐỊA ĐIỂM DU LỊCH</div>
+                            <div class="description-text-tn">Hãy đến Quy Nhơn để trải nghiệm, tham quan các địa điểm du lịch nổi tiếng như Eo gió, Kỳ Co, Cù Lao Xanh, Ghềnh Ráng đi thăm làng chài Hải Nam và nhiều địa điểm du lịch nổi tiếng khác.</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-1"></div>
+                        <div class="col-lg-4 col-md-10">
+                            <img src="img/trainghiem2.png" width="100%" style="margin-top: 40px; padding: 20px">
+                        </div>
+                        <div class="col-lg-4 col-md-1"></div>
+                        <div class="col-12">
+                            <div id="tn-am-thuc" class="caption-text-tn" style="color:#f69d1f;">TRẢI NGHIỆM VỀ ẨM THỰC</div>
+                            <div class="description-text-tn">Đến với Quy Nhơn đừng bỏ lỡ thưởng thức các món ăn đặc sắc nơi đây như: Bánh Hỏi Lòng Heo, Bánh xèo tôm nhảy, Bún cá, Chả Ram, hải sản biển và nhiều món ăn khác đang chờ bạn thưởng thức.</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-1"></div>
+                        <div class="col-lg-4 col-md-10">
+                            <img src="img/trainghiem3.png" width="100%" style="margin-top: 40px; padding: 20px">
+                        </div>
+                        <div class="col-lg-4 col-md-1"></div>
+                        <div class="col-12">
+                            <div id="tn-dich-vu" class="caption-text-tn" style="color:#5ea545;">TRẢI NGHIỆM CÁC DỊCH VỤ DU LỊCH QUY NHƠN</div>
+                            <div class="description-text-tn">Lặn ngắm san hô tại Hòn Khô, câu mực đêm, du lịch các đảo bằng ca nô, trải nghiệm các dịch vụ ăn uống ven biển, tham gia hoạt động nhóm là các trải nghiệm nên có khi tới Quy Nhơn</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="am-thuc">
+                <div class="bg-at">
+                    <div class="bg-blur-at">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="title-item text-center" style="color: #514e21">ẨM THỰC</div>
+                                <div class="sub-title-item text-center" style="color:#cf4528;">QUÊ HƯƠNG CỦA TINH HOA ẨM THỰC PHONG PHÚ VÀ ĐỘC ĐÁO</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-3">
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="border-title">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-3">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 col-md-3">
+                            </div>
+                            <div class="col-lg-8 col-md-6">
+                                <div class="description-text" style="color: #846234;">Đến Quy Nhơn, bạn không chỉ bị lạc lối bởi cảnh đẹp hút hồn mà còn bị hấp dẫn bởi những món ăn địa phương đặc sắc, thơm ngon và bổ dưỡng. Ẩm thực nơi đây mang tính chất đặc trưng của vùng miền, thể hiện qua hương vị riêng biệt với những món ăn cay, mặn và ít dầu mỡ.</div>
+                            </div>
+                            <div class="col-lg-2 col-md-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mon-an">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div id="banh-xeo-tom-nhay" class="card-photo-text-ma">
+                                <img src="img/amthuc1.png" width="100%">
+                                <div class="caption-text-ma">BÁNH XÈO TÔM NHẢY</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div id="banh-hoi-chao-long" class="card-photo-text-ma">
+                                <img src="img/amthuc2.png" width="100%">
+                                <div class="caption-text-ma">BÁNH HỎI CHÁO LÒNG</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div id="banh-canh-cha-ca" class="card-photo-text-ma">
+                                <img src="img/amthuc3.png" width="100%">
+                                <div class="caption-text-ma">BÁNH CANH CHẢ CÁ</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div id="goi-sua" class="card-photo-text-ma">
+                                <img src="img/amthuc4.png" width="100%">
+                                <div class="caption-text-ma">GỎI SỨA</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div id="banh-beo-chen" class="card-photo-text-ma">
+                                <img src="img/amthuc5.png" width="100%">
+                                <div class="caption-text-ma">BÁNH BÈO CHÉN</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div id="nem-nuong" class="card-photo-text-ma">
+                                <img src="img/amthuc6.png" width="100%">
+                                <div class="caption-text-ma">NEM NƯỚNG</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="le-hoi">
+                <div class="bg-lh">
+                    <div class="bg-blur-lh">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="title-item text-center" style="color: #535121">LỄ HỘI</div>
+                                <div class="sub-title-item text-center" style="color:#d06531;">QUY NHƠN- VIÊN NGỌC SÁNG TRONG VĂN HOÁ XỨ BÌNH ĐINH</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-3">
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="border-title">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-3">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 col-md-3">
+                            </div>
+                            <div class="col-lg-8 col-md-6">
+                                <div class="description-text" style="color: #846234;">Đến với vùng đất biển xanh, cát trắng, nắng vàng du khách không chỉ chiêm ngưỡng một khung cảnh nên thơ mà ở đó được chung vui, hòa mình vào những văn hóa lễ hội Quy Nhơn. Được mệnh danh là ‘Miền đất võ’ là cái nôi của nghệ thuật bài chòi, tuồng cùng các làng nghề truyền thống đậm văn hóa Bình Định.</div>
+                            </div>
+                            <div class="col-lg-2 col-md-3">
+                            </div>
+                        </div>
+                        <div class="le-hoi">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <div id="le-hoi-tay-son" class="card-photo-text">
+                                        <img src="img/lehoi1.png" style="width: 100%">
+                                        <div class="caption-text-ma">LỄ HỘI TÂY SƠN</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div id="le-hoi-cho-go" class="card-photo-text">
+                                        <img src="img/lehoi2.png" style="width: 100%">
+                                        <div class="caption-text-ma">LỄ HỘI CHỢ GÒ</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer">
+                <div class="bg-footer">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12">
+                            <div id="lien-ket" class="link">
+                                <img src="img/logo-footer.png" width="100%">
+                                <div class="list-link-local">
+                                    <div class="link-local-item"><a href="#diem-den">ĐIỂM ĐẾN</a></div>
+                                    <div class="link-local-item"><a href="#trai-nghiem">TRẢI NGHIỆM</a></div>
+                                    <div class="link-local-item"><a href="#am-thuc">ẨM THỰC</a></div>
+                                    <div class="link-local-item"><a href="#le-hoi">LỄ HỘI</a></div>
+                                </div>
+                                <button type="button" class="btn btn-lg btn-primary btn-link1 mr-2">
+                                    <i class="fa fa-youtube"></i>&nbsp;
+                                </button>
+                                <button type="button" class="btn btn-lg btn-primary btn-link1 mr-2">
+                                    <i class="fa fa-google-plus"></i>&nbsp;
+                                </button>
+                                <button type="button" class="btn btn-lg btn-primary btn-link1 mr-2">
+                                    <i class="fa fa-facebook"></i>&nbsp;
+                                </button>
+                                <button type="button" class="btn btn-lg btn-primary btn-link1 mr-2">
+                                    <i class="fa fa-dribbble"></i>&nbsp;
+                                </button>
+                                <button type="button" class="btn btn-lg btn-primary btn-link1 mr-2">
+                                    <i class="fa fa-twitter"></i>&nbsp;
+                                </button>
+                                <button type="button" class="btn btn-lg btn-primary btn-link1">
+                                    <i class="fa fa-instagram"></i>&nbsp;
+                                </button>
+
+                            </div>
+
+                        </div>
+                        <div class="col-lg-8 col-md-12">
+                            <div id="lien-he" class="contact">
+                                <div class="contact-boder">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-12">
+
+                                        </div>
+                                        <div class="col-lg-8 col-md-12">
+                                            <div class="contact-item">
+                                                <div class="contact-text"><i class="fa fa-home"></i>&nbsp;Địa chỉ: Km6 Nguyễn Trãi- Hà Nội </div>
+                                                <div class="contact-text"><i class="fa fa-envelope-o" style="color: #231f20"></i>&nbsp;Quynhontravel@gmail.com </div>
+                                                <div class="contact-text"><i class="fa fa-phone" style="color: #231f20"></i>&nbsp;039.575.3070</div>
+                                                <div class="contact-text">Vui lòng để lại câu hỏi bên dưới</div>
+                                            </div>
+                                            <form>
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-md-12">
+                                                        <div class="form-group">
+                                                            <input type="name" class="form-control" id="name" name="name"
+                                                                   placeholder="Họ và tên">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-12">
+                                                        <div class="form-group">
+                                                            <input type="name" class="form-control" id="phone" name="phone"
+                                                                   placeholder="Số điện thoại">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-0">
+                                                    </div>
+                                                    <div class="col-lg-8 col-md-12">
+                                                        <div class="form-group">
+                                                            <input type="name" class="form-control" id="quesion" name="quesion"
+                                                                   placeholder="Câu hỏi">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-0">
+                                                    </div>
+                                                </div>
+
+                                                <button type="submit" class="btn btn-warning">Đăng ký</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- End page wrapper  -->
+</div>
+
+</body>
+</html>
